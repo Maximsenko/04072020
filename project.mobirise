@@ -994,45 +994,20 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-section-subtitle": {
-              "color": "#767676"
+              "color": "#fffcfc"
             },
             "H2": {
               "color": "#ffffff"
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"><b>\n                    АНКЕТА</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Создайте свой проект с утонченным дизайном и  возможностью коррекции кода.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">ПОДРОБНЕЕ</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">ДЕМО</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"><b>\n                    АНКЕТА</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Заполните небольшую анкету, этим вы поможете решить нам некоторые организационные моменты.</b></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-danger-outline\" href=\"https://forms.gle/7GghjWsw8PVo1hFYA\" data-app-placeholder=\"Введите Текст\" target=\"_blank\">Заполнить анкету</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rH5khhWZ04",
           "_anchor": "content4-i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "blockTitle": "",
-            "HTMLCode": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSehLJy35ftfJ2ej8aEukQbF4PKDlQrIsY7S0m2ayn0jp5ko3A/viewform?embedded=true\" width=\"1150\" height=\"1561\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Загрузка…</iframe>",
-            "extEdit": true,
-            "paddingTop": 20,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#232323",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "blockTitle": "",
-          "HTMLCode": "<p><span contenteditable=\"false\" data-mce-object=\"iframe\" class=\"mce-preview-object mce-object-iframe\" data-mce-p-marginwidth=\"0\" data-mce-p-marginheight=\"0\" data-mce-p-frameborder=\"0\" data-mce-p-src=\"https://docs.google.com/forms/d/e/1FAIpQLSehLJy35ftfJ2ej8aEukQbF4PKDlQrIsY7S0m2ayn0jp5ko3A/viewform?embedded=true\" data-mce-html=\"%u0417%u0430%u0433%u0440%u0443%u0437%u043A%u0430%u2026\"><iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSehLJy35ftfJ2ej8aEukQbF4PKDlQrIsY7S0m2ayn0jp5ko3A/viewform?embedded=true\" width=\"1150\" height=\"1561\" frameborder=\"0\"></iframe><span class=\"mce-shim\"></span></span>﻿</p>",
-          "paddingTop": ".block {padding-bottom:0px; padding-top:0px;}",
-          "alias": "htmlblock",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "htmlblock-block",
-          "_anchor": "htmlblock-block-u"
         },
         {
           "alias": false,
